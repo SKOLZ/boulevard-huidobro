@@ -5,6 +5,7 @@ import News from './Screens/News';
 import Photos from './Screens/Photos';
 import Project from './Screens/Project';
 import Logo from './assets/logo.png';
+import Footer from './assets/footer.png';
 import './App.scss';
 
 function App() {
@@ -18,15 +19,14 @@ function App() {
         <NavLink className="nav-link" to="/photos">Fotos</NavLink>
         <NavLink className="nav-link" to="/contact">Contacto</NavLink>
       </nav>
-        <article>
-          <Routes>
-            <Route path="/" element={<News />} />
-            <Route path="project" element={<Project />} />
-            <Route path="location" element={<Location />} />
-            <Route path="photos" element={<Photos />} />
-            <Route path="contact" element={<Contact />} />
-          </Routes>
-        </article>
+      <Routes>
+        <Route path="/" element={<News />} />
+        <Route path="project" element={<Project />} />
+        <Route path="location" element={<Location />} />
+        <Route path="photos" element={<Photos />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+      <img src={Footer} alt="" className="logo" />
     </main>
   )
 }

@@ -1,0 +1,26 @@
+@import '../../scss/colors';
+
+.video {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.separator {
+  height: 2px;
+  width: 300px;
+  background: $dark-green;
+  border: 0;
+  margin-bottom: 50px;
+}
