@@ -1,9 +1,9 @@
 import { NavLink, Route, Routes } from 'react-router-dom';
-import Contact from './Screens/Contact';
-import Location from './Screens/Location';
-import News from './Screens/News';
-import Photos from './Screens/Photos';
-import Project from './Screens/Project';
+import Contact from './screens/Contact';
+import Location from './screens/Location';
+import News from './screens/News';
+import Photos from './screens/Photos';
+import Project from './screens/Project';
 import Logo from './assets/logo.png';
 import Footer from './assets/footer.png';
 import './App.scss';

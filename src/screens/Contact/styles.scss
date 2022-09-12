@@ -1,0 +1,98 @@
+@import '../../scss/colors';
+
+.contact-content {
+  flex: 1;
+  margin-bottom: 80px;
+  align-self: stretch;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 2em;
+  position: relative;
+}
+
+.contact-error {
+  color: $error-red;
+  margin: 0;
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+}
+
+.contact-form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form-input {
+  font-size: 1em;
+  line-height: 2.5em;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 4px;
+}
+
+.contact-form-textarea {
+  max-width: 400px;
+}
+
+.contact-form-input,
+.contact-form-textarea {
+  border: 1px solid $light-green;
+  width: 100%;
+  font-size: 1em;
+  border-radius: 4px;
+  line-height: 2.2em;
+  padding: 0 5px;
+
+  &:focus-visible {
+    outline: 1px solid $dark-green;
+  }
+}
+
+.contact-form-button {
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 2.2em;
+  background-color: $dark-green;
+  border-radius: 4px;
+  border: 0;
+  text-transform: uppercase;
+  color: $white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $light-green;
+  }
+
+  &:focus-visible {
+    outline: 1px solid $dark-green;
+  }
+}
+
+.contact-general-message {
+  margin: 0;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  text-align: center;
+  width: 100%;
+  
+  &.error {
+    color: $error-red;
+  }
+
+  &.success {
+    color: $light-green;
+  }
+}
