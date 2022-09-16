@@ -50,7 +50,11 @@ const Contact = () => {
   const onSubmit = (data: FieldValues) => {
     const token = captchaRef!.current!.getValue();
     if (token) {
-      mutate(data, { onError, onSuccess });
+      const dataWithToken = {
+        ...data,
+        'g-recaptcha-response': token
+      };
+      mutate(dataWithToken, { onError, onSuccess });
     } else {
       setGeneralMessage( {
         status: "error",
