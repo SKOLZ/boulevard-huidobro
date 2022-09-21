@@ -10,7 +10,7 @@ const YoutubeEmbed = ({ embedId, className }: YoutubeEmbedProps) => (
     <iframe
       width="853"
       height="480"
-      src={`https://www.youtube.com/embed/${embedId}?modestbranding=1&showinfo=0&rel=1`}
+      src={`https://www.youtube.com/embed/${embedId}?modestbranding=1&showinfo=0&rel=0`}
       frameBorder="0"
       allowFullScreen
       title="Embedded youtube"
