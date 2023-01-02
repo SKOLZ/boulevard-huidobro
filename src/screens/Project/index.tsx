@@ -57,7 +57,7 @@ function Project() {
       </p>
       <img className="bh-image" src={BHImage3} alt="" />
       <p className="project-text">
-        La construcción de <span><img src={BHText} alt="" /></span> se realizará en 2 etapas.<br />La primera sobre justamente Huidobro que incluirá el edificio I con las áreas de esparcimiento y la 2da etapa en la que se incorporará el edificio II con frente sobre la calle Estomba.<br />El tiempo estimado de obra es de 36 meses a partir de este 2 de agosto de 2015.
+        La construcción de <span><img src={BHText} alt="" /></span> se realizará en 2 etapas.<br />La primera sobre justamente Huidobro que incluirá el edificio I con las áreas de esparcimiento y la 2da etapa en la que se incorporará el edificio II con frente sobre la calle Estomba.<br />
       </p>
       <p className="project-text">
         Desde hace 13 años nuestros inversores vienen acumulando rentabilidades a través de nuestros <span className="bold">MODULOS HIPOTECARIOS</span> y las <span className="bold">INVERSIONES DINAMICAS</span>. Estas ingeniosas mecánicas nos han permitido llevar adelante nuestros desarrollos con éxito multiplicando a la vez los ahorros de quienes nos acompañan.
